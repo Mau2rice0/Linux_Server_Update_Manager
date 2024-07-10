@@ -1,9 +1,8 @@
 import os
-import sys, traceback
 
 def main():
     print("Geben sie an was sie machen wollen: ")
-    print("1: System aktualisieren\n2: Auf die nächste Distro Version wechseln")
+    print("1: System aktualisieren\n2: Auf die naechste Distro Version wechseln")
 
     a = str(input("Geben die bitte an was sie machen wollen: "))
     if a == "1":
@@ -23,7 +22,7 @@ def ausfuehren(choice):
         os.system("apt dist-upgrade")
 
     else:
-        return "Ungültige Eingabe"
+        return "Ungueltige Eingabe"
 
 
 main()
